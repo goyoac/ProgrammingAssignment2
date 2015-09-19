@@ -1,3 +1,5 @@
+# See README.md for instructions on running the code
+
 ## The following is a pair of functions that cache and compute the 
 ## inverse of a matrix.
 
