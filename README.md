@@ -4,12 +4,12 @@ Following code shows how to use the functions in `cachematrix.R`.
 
         # read the R script
         > source("cachematrix.R")
-
+        
         # create a square matrix
-	> a <- makeCacheMatrix(matrix(c(11,22,33,44),nrow = 2, ncol = 2));
-	
-	# or
-	> a <- makeCacheMatrix()
+        > a <- makeCacheMatrix(matrix(c(11,22,33,44),nrow = 2, ncol = 2));
+        
+        # or
+        > a <- makeCacheMatrix()
         > a$set(matrix(c(11,22,33,44),nrow = 2, ncol = 2))
         
         # get the matrix
@@ -24,7 +24,7 @@ Following code shows how to use the functions in `cachematrix.R`.
         [1,] -0.18181818  0.13636364
         [2,]  0.09090909 -0.04545455
         
-        # compute the inverse. 2nd time: getting the cahced value
+        # compute the inverse. 2nd time: getting the cached value
         > cacheSolve(a)
         Getting cached data...
                     [,1]        [,2]
